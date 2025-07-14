@@ -7,7 +7,7 @@
 # datasource db {
 #   provider = "mysql"
 #   url      = env("DATABASE_URL")
- }
+# }
 
 # datasource db {
 #   provider = "mongodb"
