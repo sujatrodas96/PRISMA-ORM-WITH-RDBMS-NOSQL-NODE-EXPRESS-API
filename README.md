@@ -1,5 +1,5 @@
 # PRISMA-ORM-WITH-RDBMS-NOSQL-NODE-EXPRESS-API
-# npx prisma generate for updating prisma schema file
+# After updating the Prisma schema file, make sure to run npx prisma generate to apply the changes and reflect them on the server.
 # id        Int      @id @default(autoincrement()) --- RDBMS
 # id        String   @id @default(auto()) @map("_id") @db.ObjectId --- NOSQL
 
